@@ -1,0 +1,434 @@
+com.example.TakePicture.BaseAlbumDirFactory:
+    private static final java.lang.String CAMERA_DIR
+com.example.TakePicture.BuildConfig
+com.example.TakePicture.PhotoIntentActivity:
+    private static final int ACTION_TAKE_PHOTO_B
+    private static final java.lang.String BITMAP_STORAGE_KEY
+    private static final java.lang.String IMAGEVIEW_VISIBILITY_STORAGE_KEY
+    private static final java.lang.String JPEG_FILE_PREFIX
+    private static final java.lang.String JPEG_FILE_SUFFIX
+    139:139:private android.graphics.Bitmap scaleDown(android.graphics.Bitmap)
+com.example.TakePicture.R
+com.example.TakePicture.R$attr
+com.example.TakePicture.R$drawable
+com.example.TakePicture.R$id
+com.example.TakePicture.R$layout
+com.example.TakePicture.R$string
+com.google.zxing.BinaryBitmap:
+    92:92:public boolean isCropSupported()
+    106:107:public com.google.zxing.BinaryBitmap crop(int,int,int,int)
+    135:136:public com.google.zxing.BinaryBitmap rotateCounterClockwise45()
+com.google.zxing.DecodeHintType:
+    109:109:public java.lang.Class getValueType()
+com.google.zxing.Dimension
+com.google.zxing.EncodeHintType
+com.google.zxing.InvertedLuminanceSource
+com.google.zxing.LuminanceSource:
+    80:80:public boolean isCropSupported()
+    94:94:public com.google.zxing.LuminanceSource crop(int,int,int,int)
+    109:109:public com.google.zxing.LuminanceSource invert()
+    129:129:public com.google.zxing.LuminanceSource rotateCounterClockwise45()
+com.google.zxing.MultiFormatReader:
+    82:85:public com.google.zxing.Result decodeWithState(com.google.zxing.BinaryBitmap)
+    160:165:public void reset()
+com.google.zxing.MultiFormatWriter
+com.google.zxing.MultiFormatWriter$1
+com.google.zxing.PlanarYUVLuminanceSource
+com.google.zxing.RGBLuminanceSource:
+    70:79:private RGBLuminanceSource(byte[],int,int,int,int,int,int)
+    128:128:public boolean isCropSupported()
+    133:133:public com.google.zxing.LuminanceSource crop(int,int,int,int)
+com.google.zxing.Reader:
+    public abstract void reset()
+com.google.zxing.Result:
+    125:125:public long getTimestamp()
+com.google.zxing.Writer
+com.google.zxing.WriterException
+com.google.zxing.aztec.AztecReader:
+    125:125:public void reset()
+com.google.zxing.aztec.AztecWriter
+com.google.zxing.aztec.decoder.Decoder:
+    84:84:public static java.lang.String highLevelDecode(boolean[])
+com.google.zxing.aztec.detector.Detector:
+    52:52:public com.google.zxing.aztec.AztecDetectorResult detect()
+com.google.zxing.aztec.encoder.AztecCode
+com.google.zxing.aztec.encoder.BinaryShiftToken
+com.google.zxing.aztec.encoder.Encoder
+com.google.zxing.aztec.encoder.HighLevelEncoder
+com.google.zxing.aztec.encoder.HighLevelEncoder$1
+com.google.zxing.aztec.encoder.SimpleToken
+com.google.zxing.aztec.encoder.State
+com.google.zxing.aztec.encoder.Token
+com.google.zxing.client.result.AbstractDoCoMoResultParser
+com.google.zxing.client.result.AddressBookAUResultParser
+com.google.zxing.client.result.AddressBookDoCoMoResultParser
+com.google.zxing.client.result.AddressBookParsedResult
+com.google.zxing.client.result.BizcardResultParser
+com.google.zxing.client.result.BookmarkDoCoMoResultParser
+com.google.zxing.client.result.CalendarParsedResult
+com.google.zxing.client.result.EmailAddressParsedResult
+com.google.zxing.client.result.EmailAddressResultParser
+com.google.zxing.client.result.EmailDoCoMoResultParser
+com.google.zxing.client.result.ExpandedProductParsedResult
+com.google.zxing.client.result.ExpandedProductResultParser
+com.google.zxing.client.result.GeoParsedResult
+com.google.zxing.client.result.GeoResultParser
+com.google.zxing.client.result.ISBNParsedResult
+com.google.zxing.client.result.ISBNResultParser
+com.google.zxing.client.result.ParsedResult
+com.google.zxing.client.result.ParsedResultType
+com.google.zxing.client.result.ProductParsedResult
+com.google.zxing.client.result.ProductResultParser
+com.google.zxing.client.result.ResultParser
+com.google.zxing.client.result.SMSMMSResultParser
+com.google.zxing.client.result.SMSParsedResult
+com.google.zxing.client.result.SMSTOMMSTOResultParser
+com.google.zxing.client.result.SMTPResultParser
+com.google.zxing.client.result.TelParsedResult
+com.google.zxing.client.result.TelResultParser
+com.google.zxing.client.result.TextParsedResult
+com.google.zxing.client.result.URIParsedResult
+com.google.zxing.client.result.URIResultParser
+com.google.zxing.client.result.URLTOResultParser
+com.google.zxing.client.result.VCardResultParser
+com.google.zxing.client.result.VEventResultParser
+com.google.zxing.client.result.WifiParsedResult
+com.google.zxing.client.result.WifiResultParser
+com.google.zxing.common.BitArray:
+    44:44:public int getSizeInBytes()
+    48:53:private void ensureCapacity(int)
+    78:79:public void flip(int)
+    144:167:public void setRange(int,int)
+    221:226:public void appendBit(boolean)
+    234:241:public void appendBits(int,int)
+    244:249:public void appendBitArray(com.google.zxing.common.BitArray)
+    252:260:public void xor(com.google.zxing.common.BitArray)
+    271:281:public void toBytes(int,byte[],int,int)
+com.google.zxing.common.BitMatrix:
+    94:98:public void clear()
+com.google.zxing.common.CharacterSetECI:
+    93:93:public int getValue()
+    115:115:public static com.google.zxing.common.CharacterSetECI getCharacterSetECIByName(java.lang.String)
+com.google.zxing.common.DecoderResult:
+    65:65:public java.lang.Integer getErrorsCorrected()
+    73:73:public java.lang.Integer getErasures()
+com.google.zxing.common.GlobalHistogramBinarizer:
+    private static final int LUMINANCE_BITS
+    private static final int LUMINANCE_SHIFT
+    private static final int LUMINANCE_BUCKETS
+com.google.zxing.common.GridSampler:
+    48:49:public static void setGridSampler(com.google.zxing.common.GridSampler)
+com.google.zxing.common.HybridBinarizer:
+    private static final int BLOCK_SIZE_POWER
+    private static final int BLOCK_SIZE
+    private static final int BLOCK_SIZE_MASK
+    private static final int MINIMUM_DIMENSION
+    private static final int MIN_DYNAMIC_RANGE
+com.google.zxing.common.PerspectiveTransform:
+    88:96:public void transformPoints(float[],float[])
+com.google.zxing.common.StringUtils:
+    public static final java.lang.String SHIFT_JIS
+    public static final java.lang.String GB2312
+    private static final java.lang.String EUC_JP
+    private static final java.lang.String UTF8
+    private static final java.lang.String ISO88591
+    42:42:private StringUtils()
+com.google.zxing.common.detector.MathUtils:
+    21:22:private MathUtils()
+com.google.zxing.common.detector.MonochromeRectangleDetector
+com.google.zxing.common.detector.WhiteRectangleDetector:
+    private static final int INIT_SIZE
+    private static final int CORR
+com.google.zxing.common.reedsolomon.GenericGF:
+    private static final int INITIALIZATION_THRESHOLD
+com.google.zxing.common.reedsolomon.GenericGFPoly:
+    70:70:int[] getCoefficients()
+    201:223:com.google.zxing.common.reedsolomon.GenericGFPoly[] divide(com.google.zxing.common.reedsolomon.GenericGFPoly)
+com.google.zxing.common.reedsolomon.ReedSolomonEncoder
+com.google.zxing.datamatrix.DataMatrixReader:
+    92:92:public void reset()
+com.google.zxing.datamatrix.DataMatrixWriter
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser:
+    79:80:private DecodedBitStreamParser()
+com.google.zxing.datamatrix.decoder.Decoder:
+    51:60:public com.google.zxing.common.DecoderResult decode(boolean[][])
+com.google.zxing.datamatrix.encoder.ASCIIEncoder
+com.google.zxing.datamatrix.encoder.Base256Encoder
+com.google.zxing.datamatrix.encoder.C40Encoder
+com.google.zxing.datamatrix.encoder.DataMatrixSymbolInfo144
+com.google.zxing.datamatrix.encoder.DefaultPlacement
+com.google.zxing.datamatrix.encoder.EdifactEncoder
+com.google.zxing.datamatrix.encoder.Encoder
+com.google.zxing.datamatrix.encoder.EncoderContext
+com.google.zxing.datamatrix.encoder.ErrorCorrection
+com.google.zxing.datamatrix.encoder.HighLevelEncoder
+com.google.zxing.datamatrix.encoder.SymbolInfo
+com.google.zxing.datamatrix.encoder.SymbolShapeHint
+com.google.zxing.datamatrix.encoder.TextEncoder
+com.google.zxing.datamatrix.encoder.X12Encoder
+com.google.zxing.maxicode.MaxiCodeReader:
+    private static final int MATRIX_WIDTH
+    private static final int MATRIX_HEIGHT
+    47:47:com.google.zxing.maxicode.decoder.Decoder getDecoder()
+    87:87:public void reset()
+com.google.zxing.maxicode.decoder.DecodedBitStreamParser:
+    private static final char SHIFTA
+    private static final char SHIFTB
+    private static final char SHIFTC
+    private static final char SHIFTD
+    private static final char SHIFTE
+    private static final char TWOSHIFTA
+    private static final char THREESHIFTA
+    private static final char LATCHA
+    private static final char LATCHB
+    private static final char LOCK
+    private static final char ECI
+    private static final char NS
+    private static final char PAD
+    private static final char FS
+    private static final char GS
+    private static final char RS
+    60:61:private DecodedBitStreamParser()
+com.google.zxing.maxicode.decoder.Decoder:
+    private static final int ALL
+    private static final int EVEN
+    private static final int ODD
+    49:49:public com.google.zxing.common.DecoderResult decode(com.google.zxing.common.BitMatrix)
+com.google.zxing.multi.ByQuadrantReader
+com.google.zxing.multi.GenericMultipleBarcodeReader
+com.google.zxing.multi.MultipleBarcodeReader
+com.google.zxing.multi.qrcode.QRCodeMultiReader
+com.google.zxing.multi.qrcode.detector.MultiDetector
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$1
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$ModuleSizeComparator
+com.google.zxing.oned.CodaBarReader:
+    private static final int MAX_ACCEPTABLE
+    private static final int PADDING
+    private static final java.lang.String ALPHABET_STRING
+    private static final int MIN_CHARACTER_LENGTH
+com.google.zxing.oned.CodaBarWriter
+com.google.zxing.oned.Code128Reader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int CODE_SHIFT
+    private static final int CODE_CODE_C
+    private static final int CODE_CODE_B
+    private static final int CODE_CODE_A
+    private static final int CODE_FNC_1
+    private static final int CODE_FNC_2
+    private static final int CODE_FNC_3
+    private static final int CODE_FNC_4_A
+    private static final int CODE_FNC_4_B
+    private static final int CODE_START_A
+    private static final int CODE_START_B
+    private static final int CODE_START_C
+    private static final int CODE_STOP
+com.google.zxing.oned.Code128Writer
+com.google.zxing.oned.Code39Reader:
+    static final java.lang.String ALPHABET_STRING
+com.google.zxing.oned.Code39Writer
+com.google.zxing.oned.Code93Reader:
+    private static final java.lang.String ALPHABET_STRING
+com.google.zxing.oned.EAN13Writer
+com.google.zxing.oned.EAN8Writer
+com.google.zxing.oned.ITFReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int W
+    private static final int N
+com.google.zxing.oned.ITFWriter
+com.google.zxing.oned.MultiFormatOneDReader:
+    107:110:public void reset()
+com.google.zxing.oned.MultiFormatUPCEANReader:
+    119:122:public void reset()
+com.google.zxing.oned.OneDReader:
+    protected static final int INTEGER_MATH_SHIFT
+    protected static final int PATTERN_MATCH_RESULT_SCALE_FACTOR
+    90:90:public void reset()
+com.google.zxing.oned.OneDimensionalCodeWriter
+com.google.zxing.oned.UPCAWriter
+com.google.zxing.oned.UPCEANReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+com.google.zxing.oned.UPCEANWriter
+com.google.zxing.oned.rss.AbstractRSSReader:
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final float MIN_FINDER_PATTERN_RATIO
+    private static final float MAX_FINDER_PATTERN_RATIO
+com.google.zxing.oned.rss.RSS14Reader:
+    111:113:public void reset()
+com.google.zxing.oned.rss.RSSUtils:
+    22:22:private RSSUtils()
+    25:61:static int[] getRSSwidths(int,int,int,int,boolean)
+    128:152:static int[] elements(int[],int,int)
+com.google.zxing.oned.rss.expanded.BitArrayBuilder:
+    39:40:private BitArrayBuilder()
+com.google.zxing.oned.rss.expanded.ExpandedPair:
+    53:53:boolean mayBeLast()
+com.google.zxing.oned.rss.expanded.ExpandedRow:
+    47:47:boolean isReversed()
+com.google.zxing.oned.rss.expanded.RSSExpandedReader:
+    private static final int FINDER_PAT_A
+    private static final int FINDER_PAT_B
+    private static final int FINDER_PAT_C
+    private static final int FINDER_PAT_D
+    private static final int FINDER_PAT_E
+    private static final int FINDER_PAT_F
+    private static final int MAX_PAIRS
+    145:147:public void reset()
+    361:361:java.util.List getRows()
+com.google.zxing.oned.rss.expanded.decoders.AI01392xDecoder:
+    private static final int HEADER_SIZE
+    private static final int LAST_DIGIT_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01393xDecoder:
+    private static final int HEADER_SIZE
+    private static final int LAST_DIGIT_SIZE
+    private static final int FIRST_THREE_DIGITS_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI013x0x1xDecoder:
+    private static final int HEADER_SIZE
+    private static final int WEIGHT_SIZE
+    private static final int DATE_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI013x0xDecoder:
+    private static final int HEADER_SIZE
+    private static final int WEIGHT_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01AndOtherAIs:
+    private static final int HEADER_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AI01decoder:
+    protected static final int GTIN_SIZE
+com.google.zxing.oned.rss.expanded.decoders.AnyAIDecoder:
+    private static final int HEADER_SIZE
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState:
+    65:65:boolean isNumeric()
+com.google.zxing.oned.rss.expanded.decoders.DecodedChar:
+    static final char FNC1
+com.google.zxing.oned.rss.expanded.decoders.DecodedNumeric:
+    static final int FNC1
+    64:64:int getValue()
+    76:76:boolean isAnyFNC1()
+com.google.zxing.oned.rss.expanded.decoders.FieldParser:
+    190:191:private FieldParser()
+com.google.zxing.pdf417.PDF417Common:
+    public static final int NUMBER_OF_CODEWORDS
+    public static final int MAX_CODEWORDS_IN_BARCODE
+    public static final int MIN_ROWS_IN_BARCODE
+    public static final int MAX_ROWS_IN_BARCODE
+    public static final int MAX_CODEWORDS_IN_ROW
+    public static final int MODULES_IN_CODEWORD
+    public static final int MODULES_IN_STOP_PATTERN
+    public static final int BARS_IN_MODULE
+    39:40:private PDF417Common()
+com.google.zxing.pdf417.PDF417Reader:
+    70:70:public com.google.zxing.Result[] decodeMultiple(com.google.zxing.BinaryBitmap)
+    76:80:public com.google.zxing.Result[] decodeMultiple(com.google.zxing.BinaryBitmap,java.util.Map)
+    138:138:public void reset()
+com.google.zxing.pdf417.PDF417ResultMetadata:
+    30:30:public int getSegmentIndex()
+    38:38:public java.lang.String getFileId()
+    46:46:public int[] getOptionalData()
+    54:54:public boolean isLastSegment()
+com.google.zxing.pdf417.PDF417Writer
+com.google.zxing.pdf417.decoder.BarcodeValue:
+    66:66:public java.lang.Integer getConfidence(int)
+com.google.zxing.pdf417.decoder.BoundingBox:
+    135:137:void setTopRight(com.google.zxing.ResultPoint)
+    140:142:void setBottomRight(com.google.zxing.ResultPoint)
+com.google.zxing.pdf417.decoder.Codeword:
+    private static final int BARCODE_ROW_UNKNOWN
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser:
+    private static final int TEXT_COMPACTION_MODE_LATCH
+    private static final int BYTE_COMPACTION_MODE_LATCH
+    private static final int NUMERIC_COMPACTION_MODE_LATCH
+    private static final int BYTE_COMPACTION_MODE_LATCH_6
+    private static final int BEGIN_MACRO_PDF417_CONTROL_BLOCK
+    private static final int BEGIN_MACRO_PDF417_OPTIONAL_FIELD
+    private static final int MACRO_PDF417_TERMINATOR
+    private static final int MODE_SHIFT_TO_BYTE_COMPACTION_MODE
+    private static final int MAX_NUMERIC_CODEWORDS
+    private static final int PL
+    private static final int LL
+    private static final int AS
+    private static final int ML
+    private static final int AL
+    private static final int PS
+    private static final int PAL
+    private static final int NUMBER_OF_SEQUENCE_CODEWORDS
+    88:89:private DecodedBitStreamParser()
+com.google.zxing.pdf417.decoder.DetectionResult:
+    private static final int ADJUST_ROW_NUMBER_SKIP
+com.google.zxing.pdf417.decoder.DetectionResultColumn:
+    private static final int MAX_NEARBY_DISTANCE
+    65:65:final int codewordIndexToImageRow(int)
+com.google.zxing.pdf417.decoder.PDF417CodewordDecoder:
+    47:48:private PDF417CodewordDecoder()
+com.google.zxing.pdf417.decoder.PDF417ScanningDecoder:
+    private static final int CODEWORD_SKEW_SIZE
+    private static final int MAX_ERRORS
+    private static final int MAX_EC_CODEWORDS
+    44:45:private PDF417ScanningDecoder()
+    603:619:public static java.lang.String toString(com.google.zxing.pdf417.decoder.BarcodeValue[][])
+com.google.zxing.pdf417.decoder.ec.ModulusPoly:
+    56:56:int[] getCoefficients()
+    205:227:com.google.zxing.pdf417.decoder.ec.ModulusPoly[] divide(com.google.zxing.pdf417.decoder.ec.ModulusPoly)
+com.google.zxing.pdf417.detector.Detector:
+    private static final int INTEGER_MATH_SHIFT
+    private static final int PATTERN_MATCH_RESULT_SCALE_FACTOR
+    private static final int MAX_AVG_VARIANCE
+    private static final int MAX_INDIVIDUAL_VARIANCE
+    private static final int MAX_PIXEL_DRIFT
+    private static final int MAX_PATTERN_DRIFT
+    private static final int SKIPPED_ROW_COUNT_MAX
+    private static final int ROW_STEP
+    private static final int BARCODE_MIN_HEIGHT
+    63:64:private Detector()
+com.google.zxing.pdf417.encoder.BarcodeMatrix
+com.google.zxing.pdf417.encoder.BarcodeRow
+com.google.zxing.pdf417.encoder.Compaction
+com.google.zxing.pdf417.encoder.Dimensions
+com.google.zxing.pdf417.encoder.PDF417
+com.google.zxing.pdf417.encoder.PDF417ErrorCorrection
+com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder
+com.google.zxing.qrcode.QRCodeReader:
+    51:51:protected final com.google.zxing.qrcode.decoder.Decoder getDecoder()
+    102:102:public void reset()
+com.google.zxing.qrcode.QRCodeWriter
+com.google.zxing.qrcode.decoder.DecodedBitStreamParser:
+    private static final int GB2312_SUBSET
+    53:54:private DecodedBitStreamParser()
+com.google.zxing.qrcode.decoder.Decoder:
+    45:45:public com.google.zxing.common.DecoderResult decode(boolean[][])
+    59:68:public com.google.zxing.common.DecoderResult decode(boolean[][],java.util.Map)
+    72:72:public com.google.zxing.common.DecoderResult decode(com.google.zxing.common.BitMatrix)
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel:
+    45:45:public int getBits()
+com.google.zxing.qrcode.decoder.FormatInformation:
+    private static final int FORMAT_INFO_MASK_QR
+com.google.zxing.qrcode.decoder.Mode:
+    99:99:public int getBits()
+com.google.zxing.qrcode.decoder.QRCodeDecoderMetaData:
+    39:39:public boolean isMirrored()
+com.google.zxing.qrcode.decoder.Version$ECBlocks:
+    198:202:public int getNumBlocks()
+    206:206:public int getTotalECCodewords()
+com.google.zxing.qrcode.detector.Detector:
+    49:49:protected final com.google.zxing.common.BitMatrix getImage()
+    53:53:protected final com.google.zxing.ResultPointCallback getResultPointCallback()
+    63:63:public com.google.zxing.common.DetectorResult detect()
+com.google.zxing.qrcode.detector.FinderPattern:
+    52:53:void incrementCount()
+com.google.zxing.qrcode.detector.FinderPatternFinder:
+    private static final int CENTER_QUORUM
+    protected static final int MIN_SKIP
+    protected static final int MAX_MODULES
+    private static final int INTEGER_MATH_SHIFT
+    59:60:public FinderPatternFinder(com.google.zxing.common.BitMatrix)
+    70:70:protected final com.google.zxing.common.BitMatrix getImage()
+    74:74:protected final java.util.List getPossibleCenters()
+com.google.zxing.qrcode.encoder.BlockPair
+com.google.zxing.qrcode.encoder.ByteMatrix
+com.google.zxing.qrcode.encoder.Encoder
+com.google.zxing.qrcode.encoder.Encoder$1
+com.google.zxing.qrcode.encoder.MaskUtil
+com.google.zxing.qrcode.encoder.MatrixUtil
+com.google.zxing.qrcode.encoder.QRCode
